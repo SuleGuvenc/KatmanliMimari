@@ -1,0 +1,6 @@
+﻿Migration icin verilmesi gerekn komut
+dotnet ef migrations add <DosyaIsmi> 
+
+ScaffOld icin 
+dotnet ef dbcontext scaffold "ConnectionString" Microsoft.EntityFrameWorkCore.SqlServer -o Entites 
+
